@@ -1,0 +1,9 @@
+{
+  "name": "puck-remote",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "noble": "^1.7.0"
+  }
+}
