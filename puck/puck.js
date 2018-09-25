@@ -1,4 +1,3 @@
-
 var clickTimer = null;
 var resetTimer = null;
 var clickCount = 0;
@@ -44,5 +43,8 @@ function setLight(light,v) {
         NRF.setAdvertising({
             0x180F : [0]
         },{interval:200});
+        resetTime = setTimeout(function() {
+            NRF.setAdvertising({});
+        },1000);
     },3000);
 }
