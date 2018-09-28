@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 var noble = require('noble');
 
 noble.on('stateChange', function(state) {
